@@ -1,0 +1,48 @@
+{
+    "storeInfo": {
+        "title": "Brasil-Store",
+        "author": "Shokai",
+        "description": "Repositório de traduções de jogos e homebrews de DS e 3DS para ser usada com o Universal Updater.",
+        "url": "https://github.com/Shokaiii/brasil-store",
+        "file": "brasil-store.unistore",
+        "sheetURL": "https://github.com/Shokaiii/brasil-store",
+        "sheet": "universal-db.t3x",
+        "bg_index": 1,
+        "bg_sheet": 0,
+        "revision": 0,
+        "version": 3
+    },
+    "storeContent": [
+        {
+            "info": {
+                "title": "Pokémon X - Tradução",
+                "author": "E4T",
+                "description": "Tradução para o jogo POKÉMON X. É preciso estar com a jogo atualizado para a versão 1.5 e o jogo dever ser AMERICANO. Funciona em jogos instalados por .cia e em cartuchos originais.",
+                "category": ["utility"],
+                "console": ["3DS"],
+                "icon_index": -1,
+                "sheet_index": 0,
+                "last_updated": "30-12-2022 às 19h10",
+                "license": "livre",
+                "version": "v1.5"
+            },
+            "pokemon-x15.zip": [
+                {
+                    "type": "downloadFile",
+                    "file": "https://www.mediafire.com/file/cwmb1iljdehhyyq/pokemon-x.zip/file",
+                    "output": "sdmc:/pokemon-x15.zip"
+                },
+                {
+                    "type": "extractFile",
+                    "file": "/pokemon-x15.zip",
+                    "input": "",
+                    "output": "/"
+                },
+                {
+                    "type": "deleteFile",
+                    "file": "sdmc:/pokemon-x15.zip"
+                }
+            ]
+        }
+    ]
+}
